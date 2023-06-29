@@ -1,37 +1,93 @@
-boddy{
-    background-color: black;
-}
-header {
-    background-color: #ff0000;
-}
-.cabecalho-imagem{
-    
-    width: 20%;
-
-    }
-    .cabecalho {
-        background-color: #383D58;
-        color: white;
-        display:flex;
-    }
-    .cabecalho-lista-item{
-        display: inline-block;
-        margin: 0 16px;
-        }
-        * {
-            margin: 0 16px;
-            justify-content: space-around;
-            padding: 24px 0;
-            font-size: 24px;
-            }
-    .escola-imagem{
-     width:25%;
-}
 .escola {
-    background-image: linear-gradient(#383D58,#00c0eb);
+    background-image: linear-gradient(#383D58, #00c0eb);
     color: white;
-    display:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
-.escola-conteudo{
-    width: 35%;
-    }
+
+
+.escola-titulo {
+    padding: 24px 0;
+}
+
+.estudante-titulo {
+    margin-top: 1%;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120%;
+    line-height: 39px;
+
+
+    color: #000000;
+
+}
+
+.cabecalho-imagem {
+    width: 15%;
+    height: 15%;
+    justify-content: space-around;
+    margin: 0 16px;
+    padding: 24px 0;
+}
+
+.escola-conteudo {
+    width: 35%
+}
+
+.cabecalho {
+    background-color: #383D58;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.cabecalho-lista-item {
+    margin: 0 16px;
+    padding: 10px 0;
+    justify-content: space-around;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.estu1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.insta {
+    width: 1%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    width: 25%;
+}
+
+body {
+    font-family: ’Poppins’, sans-serif;
+    background-color: #D9D9D9;
+}
+
+footer {
+margin-top: 20px;
+    height: 50px;
+    background-color: #000000;
+    color: white
+}
+
+.image2 {
+display: relative;
+    width: 7%;
+    margin-top: 10px;
+margin-left: 45%;
+    text-align: center;
+}
